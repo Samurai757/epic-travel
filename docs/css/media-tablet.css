@@ -1,0 +1,105 @@
+/* 768 - 1199  планшет */
+@media (max-width: 1199px) {
+  .desktop-only {
+    display: none !important;
+  }
+  .container {
+    width: 768px;
+  }
+  .nav-list {
+    gap: 30px;
+  }
+  .promo {
+    display: flex;
+    align-items: center;
+
+    padding-left: 20px;
+    height: 350px;
+    border-radius: 20px;
+  }
+  .promo-title {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .promo-text {
+    font-size: 18px;
+  }
+  .main-content {
+    padding: 60px 0;
+  }
+  .content-row {
+    align-items: flex-start;
+    column-gap: 30px;
+  }
+  .content-img {
+    flex: 1;
+    border-radius: 20px;
+  }
+  /* .content-img,
+  .content-text {
+    flex: 1;
+  } */
+  .content-text {
+    flex: 1;
+    row-gap: 10px;
+  }
+  .title-1 {
+    font-size: 38px;
+  }
+  .content-text p {
+    font-size: 14px;
+  }
+  .footer {
+    padding: 40px 0;
+  }
+  .footer-row {
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .foter-contacts {
+    text-align: left;
+  }
+
+  /* Туры и направления */
+
+  .main {
+    padding-block: 60px;
+  }
+  .title-text {
+    margin-bottom: 40px;
+  }
+  .tours-travel {
+    row-gap: 40px;
+  }
+  .tours-card {
+    width: 354px;
+  }
+
+  /*О компании */
+
+  .container-small {
+    width: 768px;
+  }
+  .title-text {
+    margin-bottom: 40px;
+  }
+  .about-text {
+    font-size: 16px;
+  }
+
+  /* Contacts */
+  .contacts-columns {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .address-wrapper {
+    gap: 40px;
+    width: 100%;
+  }
+  .form-wrapper {
+    width: 100%;
+  }
+}
